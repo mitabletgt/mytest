@@ -1,0 +1,450 @@
+<html dir="ltr" mozdisallowselectionprint="" lang="es-ES" style="--viewer-container-height: 343px;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Recibo e commerce | Yota de Nicaragua - Rápido como tu mundo - /tmp/d6887462d601620e3ad38e881d5bd5f4.pdf</title>
+
+<!-- This snippet is used in the Firefox extension (included from viewer.html) -->
+<script src="pdf.mjs" type="module"></script>
+
+  <link rel="stylesheet" href="viewer.css">
+  <link rel="localization" href="viewer.ftl">
+
+  <script src="viewer.mjs" type="module"></script>
+  </head>
+
+  <body tabindex="1">
+    <div id="outerContainer">
+
+      <div id="sidebarContainer">
+        <div id="toolbarSidebar">
+          <div id="toolbarSidebarLeft">
+            <div id="sidebarViewButtons" class="splitToolbarButton toggled" role="radiogroup">
+              <button id="viewThumbnail" class="toolbarButton toggled" title="Mostrar miniaturas" tabindex="2" data-l10n-id="pdfjs-thumbs-button" role="radio" aria-checked="true" aria-controls="thumbnailView">
+                 <span data-l10n-id="pdfjs-thumbs-button-label">Miniaturas</span>
+              </button>
+              <button id="viewOutline" class="toolbarButton" title="Mostrar resumen del documento (doble clic para expandir/contraer todos los elementos)" tabindex="3" data-l10n-id="pdfjs-document-outline-button" role="radio" aria-checked="false" aria-controls="outlineView" disabled="">
+                 <span data-l10n-id="pdfjs-document-outline-button-label">Resumen de documento</span>
+              </button>
+              <button id="viewAttachments" class="toolbarButton" title="Mostrar adjuntos" tabindex="4" data-l10n-id="pdfjs-attachments-button" role="radio" aria-checked="false" aria-controls="attachmentsView" disabled="">
+                 <span data-l10n-id="pdfjs-attachments-button-label">Adjuntos</span>
+              </button>
+              <button id="viewLayers" class="toolbarButton" title="Mostrar capas (doble clic para restablecer todas las capas al estado predeterminado)" tabindex="5" data-l10n-id="pdfjs-layers-button" role="radio" aria-checked="false" aria-controls="layersView" disabled="">
+                 <span data-l10n-id="pdfjs-layers-button-label">Capas</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="toolbarSidebarRight">
+            <div id="outlineOptionsContainer" class="hidden">
+              <div class="verticalToolbarSeparator"></div>
+
+              <button id="currentOutlineItem" class="toolbarButton" disabled="" title="Encontrar elemento de esquema actual" tabindex="6" data-l10n-id="pdfjs-current-outline-item-button">
+                <span data-l10n-id="pdfjs-current-outline-item-button-label">Elemento de esquema actual</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="sidebarContent">
+          <div id="thumbnailView"><a href="#page=1" data-l10n-id="pdfjs-thumb-page-title" data-l10n-args="{&quot;page&quot;:1}" title="Página 1"><div class="thumbnail selected" data-page-number="1" style="--thumbnail-width: 98px; --thumbnail-height: 126px;"><div class="thumbnailImage"></div></div></a></div>
+          <div id="outlineView" class="hidden"></div>
+          <div id="attachmentsView" class="hidden"></div>
+          <div id="layersView" class="hidden"></div>
+        </div>
+        <div id="sidebarResizer"></div>
+      </div>  <!-- sidebarContainer -->
+
+      <div id="mainContainer">
+        <div class="findbar hidden doorHanger" id="findbar">
+          <div id="findbarInputContainer">
+            <span class="loadingInput end">
+              <input id="findInput" class="toolbarField" title="Buscar" placeholder="Buscar en el documento…" tabindex="91" data-l10n-id="pdfjs-find-input" aria-invalid="false">
+            </span>
+            <div class="splitToolbarButton">
+              <button id="findPrevious" class="toolbarButton" title="Encontrar la anterior aparición de la frase" tabindex="92" data-l10n-id="pdfjs-find-previous-button">
+                <span data-l10n-id="pdfjs-find-previous-button-label">Anterior</span>
+              </button>
+              <div class="splitToolbarButtonSeparator"></div>
+              <button id="findNext" class="toolbarButton" title="Encontrar la siguiente aparición de esta frase" tabindex="93" data-l10n-id="pdfjs-find-next-button">
+                <span data-l10n-id="pdfjs-find-next-button-label">Siguiente</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="findbarOptionsOneContainer">
+            <input type="checkbox" id="findHighlightAll" class="toolbarField" tabindex="94">
+            <label for="findHighlightAll" class="toolbarLabel" data-l10n-id="pdfjs-find-highlight-checkbox">Resaltar todos</label>
+            <input type="checkbox" id="findMatchCase" class="toolbarField" tabindex="95">
+            <label for="findMatchCase" class="toolbarLabel" data-l10n-id="pdfjs-find-match-case-checkbox-label">Coincidencia de mayús./minús.</label>
+          </div>
+          <div id="findbarOptionsTwoContainer">
+            <input type="checkbox" id="findMatchDiacritics" class="toolbarField" tabindex="96">
+            <label for="findMatchDiacritics" class="toolbarLabel" data-l10n-id="pdfjs-find-match-diacritics-checkbox-label">Coincidir diacríticos</label>
+            <input type="checkbox" id="findEntireWord" class="toolbarField" tabindex="97">
+            <label for="findEntireWord" class="toolbarLabel" data-l10n-id="pdfjs-find-entire-word-checkbox-label">Palabras completas</label>
+          </div>
+
+          <div id="findbarMessageContainer" aria-live="polite">
+            <span id="findResultsCount" class="toolbarLabel"></span>
+            <span id="findMsg" class="toolbarLabel"></span>
+          </div>
+        </div>  <!-- findbar -->
+
+        <div class="editorParamsToolbar hidden doorHangerRight" id="editorHighlightParamsToolbar">
+          <div id="highlightParamsToolbarContainer" class="editorParamsToolbarContainer">
+            <div id="editorHighlightColorPicker" class="colorPicker">
+              <span id="highlightColorPickerLabel" class="editorParamsLabel" data-l10n-id="pdfjs-editor-highlight-colorpicker-label">Color de resaltado</span>
+            <div class="dropdown" role="listbox" aria-multiselectable="false" aria-orientation="horizontal" data-l10n-id="pdfjs-editor-colorpicker-dropdown" aria-labelledby="highlightColorPickerLabel" aria-label="Opciones de color"><button tabindex="0" role="option" data-color="#FFFF98" title="Amarillo" data-l10n-id="pdfjs-editor-colorpicker-yellow" aria-selected="true"><span class="swatch" style="background-color: rgb(255, 255, 152);"></span></button><button tabindex="0" role="option" data-color="#53FFBC" title="Verde" data-l10n-id="pdfjs-editor-colorpicker-green" aria-selected="false"><span class="swatch" style="background-color: rgb(83, 255, 188);"></span></button><button tabindex="0" role="option" data-color="#80EBFF" title="Azul" data-l10n-id="pdfjs-editor-colorpicker-blue" aria-selected="false"><span class="swatch" style="background-color: rgb(128, 235, 255);"></span></button><button tabindex="0" role="option" data-color="#FFCBE6" title="Rosa" data-l10n-id="pdfjs-editor-colorpicker-pink" aria-selected="false"><span class="swatch" style="background-color: rgb(255, 203, 230);"></span></button><button tabindex="0" role="option" data-color="#FF4F5F" title="Rojo" data-l10n-id="pdfjs-editor-colorpicker-red" aria-selected="false"><span class="swatch" style="background-color: rgb(255, 79, 95);"></span></button></div></div>
+          </div>
+        </div>
+
+        <div class="editorParamsToolbar hidden doorHangerRight" id="editorFreeTextParamsToolbar">
+          <div class="editorParamsToolbarContainer">
+            <div class="editorParamsSetter">
+              <label for="editorFreeTextColor" class="editorParamsLabel" data-l10n-id="pdfjs-editor-free-text-color-input">Color</label>
+              <input type="color" id="editorFreeTextColor" class="editorParamsColor" tabindex="102">
+            </div>
+            <div class="editorParamsSetter">
+              <label for="editorFreeTextFontSize" class="editorParamsLabel" data-l10n-id="pdfjs-editor-free-text-size-input">Tamaño</label>
+              <input type="range" id="editorFreeTextFontSize" class="editorParamsSlider" value="10" min="5" max="100" step="1" tabindex="103">
+            </div>
+          </div>
+        </div>
+
+        <div class="editorParamsToolbar hidden doorHangerRight" id="editorInkParamsToolbar">
+          <div class="editorParamsToolbarContainer">
+            <div class="editorParamsSetter">
+              <label for="editorInkColor" class="editorParamsLabel" data-l10n-id="pdfjs-editor-ink-color-input">Color</label>
+              <input type="color" id="editorInkColor" class="editorParamsColor" tabindex="104">
+            </div>
+            <div class="editorParamsSetter">
+              <label for="editorInkThickness" class="editorParamsLabel" data-l10n-id="pdfjs-editor-ink-thickness-input">Grosor</label>
+              <input type="range" id="editorInkThickness" class="editorParamsSlider" value="1" min="1" max="20" step="1" tabindex="105">
+            </div>
+            <div class="editorParamsSetter">
+              <label for="editorInkOpacity" class="editorParamsLabel" data-l10n-id="pdfjs-editor-ink-opacity-input">Opacidad</label>
+              <input type="range" id="editorInkOpacity" class="editorParamsSlider" value="100" min="1" max="100" step="1" tabindex="106">
+            </div>
+          </div>
+        </div>
+
+        <div class="editorParamsToolbar hidden doorHangerRight" id="editorStampParamsToolbar">
+          <div class="editorParamsToolbarContainer">
+            <button id="editorStampAddImage" class="secondaryToolbarButton" title="Añadir imagen" tabindex="107" data-l10n-id="pdfjs-editor-stamp-add-image-button">
+              <span class="editorParamsLabel" data-l10n-id="pdfjs-editor-stamp-add-image-button-label">Añadir imagen</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="secondaryToolbar" class="secondaryToolbar hidden doorHangerRight">
+          <div id="secondaryToolbarButtonContainer">
+
+            <button id="secondaryPrint" class="secondaryToolbarButton visibleMediumView" title="Imprimir" tabindex="52" data-l10n-id="pdfjs-print-button">
+              <span data-l10n-id="pdfjs-print-button-label">Imprimir</span>
+            </button>
+
+            <button id="secondaryDownload" class="secondaryToolbarButton visibleMediumView" title="Guardar" tabindex="53" data-l10n-id="pdfjs-save-button">
+              <span data-l10n-id="pdfjs-save-button-label">Guardar</span>
+            </button>
+
+          <div class="horizontalToolbarSeparator visibleMediumView"></div>
+
+            <button id="presentationMode" class="secondaryToolbarButton" title="Cambiar al modo presentación" tabindex="54" data-l10n-id="pdfjs-presentation-mode-button">
+              <span data-l10n-id="pdfjs-presentation-mode-button-label">Modo presentación</span>
+            </button>
+
+            <a href="#page=1&amp;zoom=auto,-265,798" id="viewBookmark" class="secondaryToolbarButton" title="Página actual (Ver URL de la página actual)" tabindex="55" data-l10n-id="pdfjs-bookmark-button">
+              <span data-l10n-id="pdfjs-bookmark-button-label">Página actual</span>
+            </a>
+
+            <div id="viewBookmarkSeparator" class="horizontalToolbarSeparator"></div>
+
+            <button id="firstPage" class="secondaryToolbarButton" title="Ir a la primera página" tabindex="56" data-l10n-id="pdfjs-first-page-button" disabled="">
+              <span data-l10n-id="pdfjs-first-page-button-label">Ir a la primera página</span>
+            </button>
+            <button id="lastPage" class="secondaryToolbarButton" title="Ir a la última página" tabindex="57" data-l10n-id="pdfjs-last-page-button" disabled="">
+              <span data-l10n-id="pdfjs-last-page-button-label">Ir a la última página</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="pageRotateCw" class="secondaryToolbarButton" title="Rotar en sentido horario" tabindex="58" data-l10n-id="pdfjs-page-rotate-cw-button">
+              <span data-l10n-id="pdfjs-page-rotate-cw-button-label">Rotar en sentido horario</span>
+            </button>
+            <button id="pageRotateCcw" class="secondaryToolbarButton" title="Rotar en sentido antihorario" tabindex="59" data-l10n-id="pdfjs-page-rotate-ccw-button">
+              <span data-l10n-id="pdfjs-page-rotate-ccw-button-label">Rotar en sentido antihorario</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <div id="cursorToolButtons" role="radiogroup">
+              <button id="cursorSelectTool" class="secondaryToolbarButton toggled" title="Activar herramienta de selección de texto" tabindex="60" data-l10n-id="pdfjs-cursor-text-select-tool-button" role="radio" aria-checked="true">
+                <span data-l10n-id="pdfjs-cursor-text-select-tool-button-label">Herramienta de selección de texto</span>
+              </button>
+              <button id="cursorHandTool" class="secondaryToolbarButton" title="Activar herramienta de mano" tabindex="61" data-l10n-id="pdfjs-cursor-hand-tool-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-cursor-hand-tool-button-label">Herramienta de mano</span>
+              </button>
+            </div>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <div id="scrollModeButtons" role="radiogroup">
+              <button id="scrollPage" class="secondaryToolbarButton" title="Usar desplazamiento de página" tabindex="62" data-l10n-id="pdfjs-scroll-page-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-scroll-page-button-label">Desplazamiento de página</span>
+              </button>
+              <button id="scrollVertical" class="secondaryToolbarButton toggled" title="Usar desplazamiento vertical" tabindex="63" data-l10n-id="pdfjs-scroll-vertical-button" role="radio" aria-checked="true">
+                <span data-l10n-id="pdfjs-scroll-vertical-button-label">Desplazamiento vertical</span>
+              </button>
+              <button id="scrollHorizontal" class="secondaryToolbarButton" title="Usar desplazamiento horizontal" tabindex="64" data-l10n-id="pdfjs-scroll-horizontal-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-scroll-horizontal-button-label">Desplazamiento horizontal</span>
+              </button>
+              <button id="scrollWrapped" class="secondaryToolbarButton" title="Usar desplazamiento en bloque" tabindex="65" data-l10n-id="pdfjs-scroll-wrapped-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-scroll-wrapped-button-label">Desplazamiento en bloque</span>
+              </button>
+            </div>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <div id="spreadModeButtons" role="radiogroup">
+              <button id="spreadNone" class="secondaryToolbarButton toggled" title="No juntar páginas en vista de libro" tabindex="66" data-l10n-id="pdfjs-spread-none-button" role="radio" aria-checked="true">
+                <span data-l10n-id="pdfjs-spread-none-button-label">Vista de libro</span>
+              </button>
+              <button id="spreadOdd" class="secondaryToolbarButton" title="Juntar las páginas partiendo de una con número impar" tabindex="67" data-l10n-id="pdfjs-spread-odd-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-spread-odd-button-label">Vista de libro impar</span>
+              </button>
+              <button id="spreadEven" class="secondaryToolbarButton" title="Juntar las páginas partiendo de una con número par" tabindex="68" data-l10n-id="pdfjs-spread-even-button" role="radio" aria-checked="false">
+                <span data-l10n-id="pdfjs-spread-even-button-label">Vista de libro par</span>
+              </button>
+            </div>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="documentProperties" class="secondaryToolbarButton" title="Propiedades del documento…" tabindex="69" data-l10n-id="pdfjs-document-properties-button" aria-controls="documentPropertiesDialog">
+              <span data-l10n-id="pdfjs-document-properties-button-label">Propiedades del documento…</span>
+            </button>
+          </div>
+        </div>  <!-- secondaryToolbar -->
+
+        <div class="toolbar">
+          <div id="toolbarContainer">
+            <div id="toolbarViewer">
+              <div id="toolbarViewerLeft">
+                <button id="sidebarToggle" class="toolbarButton" title="Cambiar barra lateral" tabindex="11" data-l10n-id="pdfjs-toggle-sidebar-button" aria-expanded="false" aria-controls="sidebarContainer">
+                  <span data-l10n-id="pdfjs-toggle-sidebar-button-label">Cambiar barra lateral</span>
+                </button>
+                <div class="toolbarButtonSpacer"></div>
+                <button id="viewFind" class="toolbarButton hidden" title="Buscar en el documento" tabindex="12" data-l10n-id="pdfjs-findbar-button" aria-expanded="false" aria-controls="findbar">
+                  <span data-l10n-id="pdfjs-findbar-button-label">Buscar</span>
+                </button>
+                <div class="splitToolbarButton hiddenSmallView">
+                  <button class="toolbarButton" title="Página anterior" id="previous" tabindex="13" data-l10n-id="pdfjs-previous-button" disabled="">
+                    <span data-l10n-id="pdfjs-previous-button-label">Anterior</span>
+                  </button>
+                  <div class="splitToolbarButtonSeparator"></div>
+                  <button class="toolbarButton" title="Página siguiente" id="next" tabindex="14" data-l10n-id="pdfjs-next-button" disabled="">
+                    <span data-l10n-id="pdfjs-next-button-label">Siguiente</span>
+                  </button>
+                </div>
+                <span class="loadingInput start">
+                  <input type="number" id="pageNumber" class="toolbarField" title="Página" value="1" min="1" tabindex="15" data-l10n-id="pdfjs-page-input" autocomplete="off" max="1">
+                </span>
+                <span id="numPages" class="toolbarLabel" data-l10n-id="pdfjs-of-pages" data-l10n-args="{&quot;pagesCount&quot;:1}">de 1</span>
+              </div>
+              <div id="toolbarViewerRight">
+                <div id="editorModeButtons" class="splitToolbarButton toggled" role="radiogroup">
+                  <button id="editorHighlight" class="toolbarButton" hidden="true" title="Highlight" role="radio" aria-checked="false" aria-controls="editorHighlightParamsToolbar" tabindex="31" data-l10n-id="pdfjs-editor-highlight">
+                    <span data-l10n-id="pdfjs-editor-highlight-label">Highlight</span>
+                  </button>
+                  <button id="editorFreeText" class="toolbarButton" title="Texto" role="radio" aria-checked="false" aria-controls="editorFreeTextParamsToolbar" tabindex="32" data-l10n-id="pdfjs-editor-free-text-button">
+                    <span data-l10n-id="pdfjs-editor-free-text-button-label">Texto</span>
+                  </button>
+                  <button id="editorInk" class="toolbarButton" title="Dibujar" role="radio" aria-checked="false" aria-controls="editorInkParamsToolbar" tabindex="33" data-l10n-id="pdfjs-editor-ink-button">
+                    <span data-l10n-id="pdfjs-editor-ink-button-label">Dibujar</span>
+                  </button>
+                  <button id="editorStamp" class="toolbarButton" title="Añadir o editar imágenes" role="radio" aria-checked="false" aria-controls="editorStampParamsToolbar" tabindex="34" data-l10n-id="pdfjs-editor-stamp-button">
+                    <span data-l10n-id="pdfjs-editor-stamp-button-label">Añadir o editar imágenes</span>
+                  </button>
+                </div>
+
+                <div id="editorModeSeparator" class="verticalToolbarSeparator"></div>
+
+                <button id="print" class="toolbarButton hiddenMediumView" title="Imprimir" tabindex="41" data-l10n-id="pdfjs-print-button">
+                  <span data-l10n-id="pdfjs-print-button-label">Imprimir</span>
+                </button>
+
+                <button id="download" class="toolbarButton hiddenMediumView" title="Guardar" tabindex="42" data-l10n-id="pdfjs-save-button">
+                  <span data-l10n-id="pdfjs-save-button-label">Guardar</span>
+                </button>
+
+                <div class="verticalToolbarSeparator hiddenMediumView"></div>
+
+                <button id="secondaryToolbarToggle" class="toolbarButton" title="Herramientas" tabindex="43" data-l10n-id="pdfjs-tools-button" aria-expanded="false" aria-controls="secondaryToolbar">
+                  <span data-l10n-id="pdfjs-tools-button-label">Herramientas</span>
+                </button>
+              </div>
+              <div id="toolbarViewerMiddle">
+                <div class="splitToolbarButton">
+                  <button id="zoomOut" class="toolbarButton" title="Reducir" tabindex="21" data-l10n-id="pdfjs-zoom-out-button">
+                    <span data-l10n-id="pdfjs-zoom-out-button-label">Reducir</span>
+                  </button>
+                  <div class="splitToolbarButtonSeparator"></div>
+                  <button id="zoomIn" class="toolbarButton" title="Aumentar" tabindex="22" data-l10n-id="pdfjs-zoom-in-button">
+                    <span data-l10n-id="pdfjs-zoom-in-button-label">Aumentar</span>
+                   </button>
+                </div>
+                <span id="scaleSelectContainer" class="dropdownToolbarButton">
+                  <select id="scaleSelect" title="Tamaño" tabindex="23" data-l10n-id="pdfjs-zoom-select">
+                    <option id="pageAutoOption" value="auto" selected="selected" data-l10n-id="pdfjs-page-scale-auto">Tamaño automático</option>
+                    <option id="pageActualOption" value="page-actual" data-l10n-id="pdfjs-page-scale-actual">Tamaño real</option>
+                    <option id="pageFitOption" value="page-fit" data-l10n-id="pdfjs-page-scale-fit">Ajuste de la página</option>
+                    <option id="pageWidthOption" value="page-width" data-l10n-id="pdfjs-page-scale-width">Anchura de la página</option>
+                    <option id="customScaleOption" value="custom" disabled="disabled" hidden="true" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 0 }">0%</option>
+                    <option value="0.5" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 50 }">50%</option>
+                    <option value="0.75" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 75 }">75%</option>
+                    <option value="1" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 100 }">100%</option>
+                    <option value="1.25" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 125 }">125%</option>
+                    <option value="1.5" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 150 }">150%</option>
+                    <option value="2" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 200 }">200%</option>
+                    <option value="3" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 300 }">300%</option>
+                    <option value="4" data-l10n-id="pdfjs-page-scale-percent" data-l10n-args="{ &quot;scale&quot;: 400 }">400%</option>
+                  </select>
+                </span>
+              </div>
+            </div>
+            <div id="loadingBar" style="--progressBar-percent: 100%; --progressBar-end-offset: 17px;" class="hidden">
+              <div class="progress">
+                <div class="glimmer">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="viewerContainer" tabindex="0">
+          <div id="hiddenCopyElement"></div><div id="viewer" class="pdfViewer" style="--scale-factor: 1.6666666666666665;"><div class="page" data-page-number="1" role="region" data-l10n-id="pdfjs-page-landmark" data-l10n-args="{&quot;page&quot;:1}" style="width: round(var(--scale-factor) * 612px, 1px); height: round(var(--scale-factor) * 792px, 1px);" data-loaded="true" aria-label="Página 1"><div class="canvasWrapper"><canvas role="presentation" width="1020" height="1320" style="width: 1020px; height: 1320px;"></canvas></div><div class="textLayer" style="width: round(var(--scale-factor) * 612px, 1px); height: round(var(--scale-factor) * 792px, 1px);" data-main-rotation="0"><span style="left: 35.69%; top: 7.19%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00384);" role="presentation" dir="ltr">AUT-DGI-ASFC-02-010-05-2010</span><br role="presentation"><span style="left: 35.58%; top: 9.42%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00538);" role="presentation" dir="ltr">*** GRACIAS POR SU PAGO ***</span><br role="presentation"><span style="left: 37.43%; top: 14.86%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00618);" role="presentation" dir="ltr">YOTA DE NICARAGUA, S.A</span><br role="presentation"><span style="left: 39.72%; top: 17.09%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00008);" role="presentation" dir="ltr">RUC#J0310000005370</span><br role="presentation"><span style="left: 43.15%; top: 19.32%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(0.999856);" role="presentation" dir="ltr">E-COMMERCE</span><br role="presentation"><span style="left: 29.74%; top: 24.01%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.015);" role="presentation" dir="ltr">Documento #: 0000039025</span><br role="presentation"><span style="left: 29.74%; top: 26.24%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00055);" role="presentation" dir="ltr">Ref.:</span><span style="left: 33.88%; top: 26.24%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif;" role="presentation" dir="ltr"> </span><span style="left: 42.84%; top: 26.24%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.0003);" role="presentation" dir="ltr">205379</span><br role="presentation"><span style="left: 29.74%; top: 28.47%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00038);" role="presentation" dir="ltr">Fecha:</span><span style="left: 35.74%; top: 28.47%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif;" role="presentation" dir="ltr"> </span><span style="left: 42.84%; top: 28.47%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00709);" role="presentation" dir="ltr">11-03-2024 06:09:02 PM</span><br role="presentation"><span style="left: 29.74%; top: 30.7%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00034);" role="presentation" dir="ltr">No. Cuenta:</span><span style="left: 40.2%; top: 30.7%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif;" role="presentation" dir="ltr"> </span><span style="left: 42.84%; top: 30.7%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.01383);" role="presentation" dir="ltr">3010011266</span><br role="presentation"><span style="left: 29.74%; top: 33.85%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1);" role="presentation" dir="ltr">Cliente:</span><span style="left: 36.39%; top: 33.85%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif;" role="presentation" dir="ltr"> </span><span style="left: 42.84%; top: 32.93%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.01297);" role="presentation" dir="ltr">HENRY JAVIER</span><br role="presentation"><span style="left: 42.84%; top: 34.78%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.02054);" role="presentation" dir="ltr">NAVARRETE VASQUEZ</span><br role="presentation"><span style="left: 29.74%; top: 38.71%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(0.999836);" role="presentation" dir="ltr">Servicios</span><span style="left: 37.69%; top: 38.71%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif;" role="presentation" dir="ltr"> </span><span style="left: 64.63%; top: 38.71%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(0.999941);" role="presentation" dir="ltr">Precio</span><br role="presentation"><span style="left: 29.74%; top: 41.13%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00029);" role="presentation" dir="ltr">Servicio de Internet</span><span style="left: 46.63%; top: 41.13%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif;" role="presentation" dir="ltr"> </span><span style="left: 60.92%; top: 41.13%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00035);" role="presentation" dir="ltr">US$ 58.00</span><br role="presentation"><span style="left: 42.66%; top: 44.02%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00002);" role="presentation" dir="ltr">** Ult. Servicio **</span><br role="presentation"><span style="left: 40.47%; top: 46.91%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.017);" role="presentation" dir="ltr">Total Recibido:</span><span style="left: 53.55%; top: 46.91%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif;" role="presentation" dir="ltr"> </span><span style="left: 60.92%; top: 46.91%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00035);" role="presentation" dir="ltr">US$ 58.00</span><br role="presentation"><span style="left: 34%; top: 51.32%; font-size: calc(var(--scale-factor)*12.00px); font-family: sans-serif; transform: scaleX(1.00019);" role="presentation" dir="ltr">Este recibo no necesita firma ni sello</span><div class="endOfContent"></div></div><div class="annotationLayer" hidden=""></div><div class="annotationEditorLayer disabled" tabindex="0" hidden="" dir="ltr" style="width: round(var(--scale-factor) * 612px, 1px); height: round(var(--scale-factor) * 792px, 1px);" data-main-rotation="0"></div></div></div>
+        </div>
+      </div> <!-- mainContainer -->
+
+      <div id="dialogContainer">
+        <dialog id="passwordDialog">
+          <div class="row">
+            <label for="password" id="passwordText" data-l10n-id="pdfjs-password-label">Introduzca la contraseña para abrir este archivo PDF.</label>
+          </div>
+          <div class="row">
+            <input type="password" id="password" class="toolbarField">
+          </div>
+          <div class="buttonRow">
+            <button id="passwordCancel" class="dialogButton"><span data-l10n-id="pdfjs-password-cancel-button">Cancelar</span></button>
+            <button id="passwordSubmit" class="dialogButton"><span data-l10n-id="pdfjs-password-ok-button">Aceptar</span></button>
+          </div>
+        </dialog>
+        <dialog id="documentPropertiesDialog">
+          <div class="row">
+            <span id="fileNameLabel" data-l10n-id="pdfjs-document-properties-file-name">Nombre de archivo:</span>
+            <p id="fileNameField" aria-labelledby="fileNameLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="fileSizeLabel" data-l10n-id="pdfjs-document-properties-file-size">Tamaño de archivo:</span>
+            <p id="fileSizeField" aria-labelledby="fileSizeLabel">-</p>
+          </div>
+          <div class="separator"></div>
+          <div class="row">
+            <span id="titleLabel" data-l10n-id="pdfjs-document-properties-title">Título:</span>
+            <p id="titleField" aria-labelledby="titleLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="authorLabel" data-l10n-id="pdfjs-document-properties-author">Autor:</span>
+            <p id="authorField" aria-labelledby="authorLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="subjectLabel" data-l10n-id="pdfjs-document-properties-subject">Asunto:</span>
+            <p id="subjectField" aria-labelledby="subjectLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="keywordsLabel" data-l10n-id="pdfjs-document-properties-keywords">Palabras clave:</span>
+            <p id="keywordsField" aria-labelledby="keywordsLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="creationDateLabel" data-l10n-id="pdfjs-document-properties-creation-date">Fecha de creación:</span>
+            <p id="creationDateField" aria-labelledby="creationDateLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="modificationDateLabel" data-l10n-id="pdfjs-document-properties-modification-date">Fecha de modificación:</span>
+            <p id="modificationDateField" aria-labelledby="modificationDateLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="creatorLabel" data-l10n-id="pdfjs-document-properties-creator">Creador:</span>
+            <p id="creatorField" aria-labelledby="creatorLabel">-</p>
+          </div>
+          <div class="separator"></div>
+          <div class="row">
+            <span id="producerLabel" data-l10n-id="pdfjs-document-properties-producer">Productor PDF:</span>
+            <p id="producerField" aria-labelledby="producerLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="versionLabel" data-l10n-id="pdfjs-document-properties-version">Versión PDF:</span>
+            <p id="versionField" aria-labelledby="versionLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="pageCountLabel" data-l10n-id="pdfjs-document-properties-page-count">Número de páginas:</span>
+            <p id="pageCountField" aria-labelledby="pageCountLabel">-</p>
+          </div>
+          <div class="row">
+            <span id="pageSizeLabel" data-l10n-id="pdfjs-document-properties-page-size">Tamaño de la página:</span>
+            <p id="pageSizeField" aria-labelledby="pageSizeLabel">-</p>
+          </div>
+          <div class="separator"></div>
+          <div class="row">
+            <span id="linearizedLabel" data-l10n-id="pdfjs-document-properties-linearized">Vista rápida de la web:</span>
+            <p id="linearizedField" aria-labelledby="linearizedLabel">-</p>
+          </div>
+          <div class="buttonRow">
+            <button id="documentPropertiesClose" class="dialogButton"><span data-l10n-id="pdfjs-document-properties-close-button">Cerrar</span></button>
+          </div>
+        </dialog>
+        <dialog id="altTextDialog" aria-labelledby="dialogLabel" aria-describedby="dialogDescription">
+          <div id="altTextContainer">
+            <div id="overallDescription">
+              <span id="dialogLabel" data-l10n-id="pdfjs-editor-alt-text-dialog-label" class="title">Eligir una opción</span>
+              <span id="dialogDescription" data-l10n-id="pdfjs-editor-alt-text-dialog-description">El texto alternativo (texto alternativo) ayuda cuando las personas no pueden ver la imagen o cuando no se carga.</span>
+            </div>
+            <div id="addDescription">
+              <div class="radio">
+                <div class="radioButton">
+                  <input type="radio" id="descriptionButton" name="altTextOption" tabindex="0" aria-describedby="descriptionAreaLabel" checked="">
+                  <label for="descriptionButton" data-l10n-id="pdfjs-editor-alt-text-add-description-label">Añadir una descripción</label>
+                </div>
+                <div class="radioLabel">
+                  <span id="descriptionAreaLabel" data-l10n-id="pdfjs-editor-alt-text-add-description-description">Intente escribir 1 o 2 frases que describan el tema, el entorno o las acciones.</span>
+                </div>
+              </div>
+              <div class="descriptionArea">
+                <textarea id="descriptionTextarea" placeholder="Por ejemplo: “Un joven se sienta a la mesa a comer”" aria-labelledby="descriptionAreaLabel" data-l10n-id="pdfjs-editor-alt-text-textarea" tabindex="0"></textarea>
+              </div>
+            </div>
+            <div id="markAsDecorative">
+              <div class="radio">
+                <div class="radioButton">
+                  <input type="radio" id="decorativeButton" name="altTextOption" aria-describedby="decorativeLabel">
+                  <label for="decorativeButton" data-l10n-id="pdfjs-editor-alt-text-mark-decorative-label">Marcar como decorativa</label>
+                </div>
+                <div class="radioLabel">
+                  <span id="decorativeLabel" data-l10n-id="pdfjs-editor-alt-text-mark-decorative-description">Se utiliza para imágenes ornamentales, como bordes o marcas de agua.</span>
+                </div>
+              </div>
+            </div>
+            <div id="buttons">
+              <button id="altTextCancel" tabindex="0"><span data-l10n-id="pdfjs-editor-alt-text-cancel-button">Cancelar</span></button>
+              <button id="altTextSave" tabindex="0"><span data-l10n-id="pdfjs-editor-alt-text-save-button">Guardar</span></button>
+            </div>
+          </div>
+        </dialog>
+      </div>  <!-- dialogContainer -->
+
+    </div> <!-- outerContainer -->
+    <div id="printContainer"></div>
+
+  
+
+</body>
+</html>
