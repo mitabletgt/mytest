@@ -1,0 +1,65 @@
+<div
+	class="page"
+	data-page-number="1"
+	role="region"
+	data-l10n-id="pdfjs-page-landmark"
+	data-l10n-args='{"page":1}'
+	style="width: round(var(--scale-factor) * 612px, 1px); height: round(var(--scale-factor) * 792px, 1px);"
+	data-loaded="true"
+	aria-label="Página 1"
+>
+	<div class="canvasWrapper">
+		<canvas role="presentation" width="1020" height="1320" style="width: 1020px; height: 1320px;"></canvas>
+	</div>
+	<div class="textLayer" style="width: round(var(--scale-factor) * 612px, 1px); height: round(var(--scale-factor) * 792px, 1px);" data-main-rotation="0">
+		<span style="left: 35.69%; top: 7.19%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00384);" role="presentation" dir="ltr">AUT-DGI-ASFC-02-010-05-2010</span>
+		<br role="presentation" />
+		<span style="left: 35.58%; top: 9.42%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00538);" role="presentation" dir="ltr">*** GRACIAS POR SU PAGO ***</span>
+		<br role="presentation" />
+		<span style="left: 37.43%; top: 14.86%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00618);" role="presentation" dir="ltr">YOTA DE NICARAGUA, S.A</span>
+		<br role="presentation" />
+		<span style="left: 39.72%; top: 17.09%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00008);" role="presentation" dir="ltr">RUC#J0310000005370</span>
+		<br role="presentation" />
+		<span style="left: 43.15%; top: 19.32%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(0.999856);" role="presentation" dir="ltr">E-COMMERCE</span>
+		<br role="presentation" />
+		<span style="left: 29.74%; top: 24.01%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.015);" role="presentation" dir="ltr">Documento #: 0000039025</span>
+		<br role="presentation" />
+		<span style="left: 29.74%; top: 26.24%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00055);" role="presentation" dir="ltr">Ref.:</span>
+		<span style="left: 33.88%; top: 26.24%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif;" role="presentation" dir="ltr"> </span>
+		<span style="left: 42.84%; top: 26.24%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.0003);" role="presentation" dir="ltr">205379</span><br role="presentation" />
+		<span style="left: 29.74%; top: 28.47%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00038);" role="presentation" dir="ltr">Fecha:</span>
+		<span style="left: 35.74%; top: 28.47%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif;" role="presentation" dir="ltr"> </span>
+		<span style="left: 42.84%; top: 28.47%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00709);" role="presentation" dir="ltr">11-03-2024 06:09:02 PM</span>
+		<br role="presentation" />
+		<span style="left: 29.74%; top: 30.7%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00034);" role="presentation" dir="ltr">No. Cuenta:</span>
+		<span style="left: 40.2%; top: 30.7%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif;" role="presentation" dir="ltr"> </span>
+		<span style="left: 42.84%; top: 30.7%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.01383);" role="presentation" dir="ltr">3010012966</span>
+		<br role="presentation" />
+		<span style="left: 29.74%; top: 33.85%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1);" role="presentation" dir="ltr">Cliente:</span>
+		<span style="left: 36.39%; top: 33.85%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif;" role="presentation" dir="ltr"> </span>
+		<span style="left: 42.84%; top: 32.93%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.01297);" role="presentation" dir="ltr">HENRY JAVIER</span>
+		<br role="presentation" />
+		<span style="left: 42.84%; top: 34.78%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.02054);" role="presentation" dir="ltr">NAVARRETE VASQUEZ</span>
+		<br role="presentation" />
+		<span style="left: 29.74%; top: 38.71%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(0.999836);" role="presentation" dir="ltr">Servicios</span>
+		<span style="left: 37.69%; top: 38.71%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif;" role="presentation" dir="ltr"> </span>
+		<span style="left: 64.63%; top: 38.71%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(0.999941);" role="presentation" dir="ltr">Precio</span>
+		<br role="presentation" />
+		<span style="left: 29.74%; top: 41.13%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00029);" role="presentation" dir="ltr">Servicio de Internet</span>
+		<span style="left: 46.63%; top: 41.13%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif;" role="presentation" dir="ltr"> </span>
+		<span style="left: 60.92%; top: 41.13%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00035);" role="presentation" dir="ltr">US$ 58.00</span>
+		<br role="presentation" />
+		<span style="left: 42.66%; top: 44.02%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00002);" role="presentation" dir="ltr">** Ult. Servicio **</span>
+		<br role="presentation" />
+		<span style="left: 40.47%; top: 46.91%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.017);" role="presentation" dir="ltr">Total Recibido:</span>
+		<span style="left: 53.55%; top: 46.91%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif;" role="presentation" dir="ltr"> </span>
+		<span style="left: 60.92%; top: 46.91%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00035);" role="presentation" dir="ltr">US$ 58.00</span>
+		<br role="presentation" />
+		<span style="left: 34%; top: 51.32%; font-size: calc(var(--scale-factor) * 12px); font-family: sans-serif; transform: scaleX(1.00019);" role="presentation" dir="ltr">
+			Este recibo no necesita firma ni sello
+		</span>
+		<div class="endOfContent"></div>
+	</div>
+	<div class="annotationLayer" hidden=""></div>
+	<div class="annotationEditorLayer disabled" tabindex="0" hidden="" dir="ltr" style="width: round(var(--scale-factor) * 612px, 1px); height: round(var(--scale-factor) * 792px, 1px);" data-main-rotation="0"></div>
+</div>
